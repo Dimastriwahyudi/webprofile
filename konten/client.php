@@ -1,7 +1,7 @@
 <section class="content_section bg_gray">
     <div class="content row_spacer clearfix">
         <div class="main_title centered upper">
-            <h2 id="testimonial_heading"><span class="line"></span>What Are They Saying ?</h2>
+            <h2 id="testimonial_heading"><span class="line"></span>Sambutan Kepala Sekolah</h2>
         </div>
         <div class="normal_text_slider client_say_slider">
             <?php

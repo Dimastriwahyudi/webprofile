@@ -1,7 +1,7 @@
 <section class="content_section bg_gray">
     <div class="container icons_spacer">
         <div class="main_title centered upper">
-            <h2 id="service_heading"><span class="line"><span class="dot"></span></span>Our Services</h2>
+            <h2 id="service_heading"><span class="line"><span class="dot"></span></span>Fasilitas</h2>
         </div>
 
         <div class="icon_boxes_con style1 clearfix">
@@ -15,7 +15,7 @@
                         <div class="service_box_con centered">
                             <h3><?php echo $data['nama']; ?></h3>
                             <span class="desc"><?php echo $data['keterangan']; ?></span>
-                            <a href="#" class="ser-box-link"><span></span>Read More </a>
+                            <!-- <a href="#" class="ser-box-link"><span></span>Read More </a> -->
                         </div>
                     </div>
                 </div>

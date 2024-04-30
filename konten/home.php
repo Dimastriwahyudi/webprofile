@@ -1,10 +1,10 @@
 <?php include 'konten/slideshow.php'; ?>
-<?php include 'konten/services.php'; ?>
+<?php include 'konten/client.php'; ?>
 <?php include 'konten/video.php'; ?>
 <section class="content_section bg_gray">
     <div class="content row_spacer no_padding">
         <div class="main_title centered upper">
-            <h2 id='blog-heading'><span class="line"><i class="fa fa-edit"></i></span>Our Recent Posts </h2>
+            <h2 id='blog-heading'><span class="line"><i class="fa fa-edit"></i></span>Postingan Terbaru Kami </h2>
         </div>
         <div class="rows_container clearfix">
             <div class="hm_blog_grid">
@@ -62,14 +62,14 @@
         <div class="centered post-btn1">
             <a href="?tampil=berita" class="btn_c append-button">
                 <span class="btn_c_ic_a"><i class="fa fa-repeat"></i></span>
-                <span class="btn_c_t">See More Posts</span>
+                <span class="btn_c_t">Liat lebih banyak postingan</span>
                 <span class="btn_c_ic_b"><i class="fa fa-repeat"></i></span>
             </a>
         </div>
     </div>
 </section>
-<?php include 'konten/slideimage.php'; ?>
-<?php include 'konten/client.php'; ?>
+<?php include 'konten/count.php'; ?>
+<?php include 'konten/services.php'; ?>
 
 <section id='callout' class="content_section white_section bg_color3">
     <div class="welcome_banner full_colored">
@@ -79,9 +79,6 @@
             $data = mysqli_fetch_array($sql)
             ?>
             <h3 id='callout-title'><?= $data['Judul_perusahan']; ?></h3>
-            <a id="call_out_link" href="#" target="_self" class="btn_a f_right">
-                <span><i class="in_left fa fa-shopping-cart"></i><span id='callout-btn-text'>EDITOR </span><i class="in_right fa fa-shopping-cart"></i></span>
-            </a>
         </div>
     </div>
 </section>

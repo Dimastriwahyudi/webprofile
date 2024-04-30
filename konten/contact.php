@@ -1,6 +1,6 @@
  <section class="content_section page_title">
      <div class="content clearfix">
-         <h1 class="">Contact US</h1>
+         <h1 class="">Hubungi kami</h1>
          <ul class="breadcrumbs">
              <li><a href="#">Home</a><span class="crumbs-spacer"><i class="fa fa-angle-right"></i></span>Contact</li>
          </ul>
@@ -11,7 +11,7 @@
      <div class="content row_spacer no_padding">
          <div class="rows_container clearfix">
              <div class="col-md-6">
-                 <h2 class="title1 upper"><i class="fa fa-pencil"></i>Contact Information </h2>
+                 <h2 class="title1 upper"><i class="fa fa-pencil"></i>Informasi Kontak </h2>
                  <?php
                     $sql = mysqli_query($koneksi, "SELECT * FROM tbl_profil");
                     $data = mysqli_fetch_array($sql)
@@ -141,11 +141,11 @@
  <section id="google_map" class="content_section">
      <div class="title_banner t_b_color1 upper centered">
          <div class="content">
-             <h2 id="google_map_title">How to reach us?</h2>
+             <h2 id="google_map_title">BAGAIMANA MENGHUBUNGI KAMI?</h2>
          </div>
      </div>
      <div class="bordered_content">
-         <iframe id="google_map_url" src="https://maps.google.com/maps?q=smkn%201%20gedong%20tataan&t=&z=11&ie=UTF8&iwloc=&output=embed" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7490130575907!2d109.12808990896163!3d-6.9205792930502215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb91a4557da4d%3A0x3d9f27930f795c76!2sSMK%20NU%201%20Penawaja%20Adiwerna!5e0!3m2!1sid!2sid!4v1714213263866!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
      </div>
  </section>
  <!-- Our Blog Grids -->

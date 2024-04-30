@@ -33,7 +33,7 @@
                                     <h6 class="name"><?php echo $data['judul_tags']; ?></h6>
                                     <span class="porto_date"><span class="number"><?php echo $data['tanggal']; ?></span><?php echo $data['tanggal']; ?></span>
                                     <a href="administrator/img/tags/<?php echo $data['gambar']; ?>" class="expand_img">View Larger</a>
-                                    <a href="?tampil=gallery_detail&id=<?php echo $data['judul_tags']; ?>" class="detail_link">More Details</a>
+                                    <!-- <a href="?tampil=gallery_detail&id=<?php echo $data['judul_tags']; ?>" class="detail_link">More Details</a> -->
                                 </div>
                             </div>
                         </div>

@@ -73,20 +73,20 @@ $isi = $data['isi'];
                         </div>
 
                         <!-- Next / Prev and Social Share-->
-                        <div class="post_next_prev_con clearfix">
+                        <!-- <div class="post_next_prev_con clearfix"> -->
                             <!-- Social Share-->
-                            <div class="single_pro_row">
-                                <div id="share_on_socials">
+                            <!-- <div class="single_pro_row">
+                                <div id="share_on_socials"> -->
                                     <!-- <h6>Share:</h6> -->
-                                    <a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <!-- <a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                                     <a class="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
                                     <a class="googleplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
                                     <a class="pinterest" href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
                                     <a class="linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- End Social Share-->
-                        </div>
+                        <!-- </div> -->
                         <!-- End Next / Prev and Social Share-->
 
                         <!-- Tags -->

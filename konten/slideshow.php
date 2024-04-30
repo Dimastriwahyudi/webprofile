@@ -13,9 +13,6 @@
 				</span>
 				<span class="owl_text_c"><span><?php echo $data['judul_belakang']; ?></span></span>
 				<span class="owl_text_d">
-					<a href="administrator/img/slideshow/<?php echo $data['gambar']; ?>" class="btn_a">
-						<span><i class="in_left fa fa-eye"></i><span>View Demo</span><i class="in_right fa fa-eye"></i></span>
-					</a>
 				</span>
 			</div>
 		</div>

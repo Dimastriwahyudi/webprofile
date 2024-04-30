@@ -14,11 +14,12 @@ $data = mysqli_fetch_array($sql)
 	<meta http-equiv="Content-Type" content="text/html" ; charset=" UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?= $data['Judul_perusahan']; ?></title>
-	<link rel="icon" href="img/favicon.png" />
+	<link rel="icon" href="img/waja.png" />
 	<link rel='stylesheet' href='css/media/css/jquery.dataTables.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='css/media/css/jquery.dataTables.min.css' type='text/css' media='all' />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel='stylesheet' href='css/css/dist/block-library/style.min945b.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='css/css/dashicons.min945b.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='boot/themes/kom/style945b.css' type='text/css' media='all' />
@@ -33,6 +34,7 @@ $data = mysqli_fetch_array($sql)
 	<script type='text/javascript' src='css/js/jquery/jqueryb8ff.js'></script>
 	<script type='text/javascript' src='css/js/jquery/jquery-migrate.min330a.js'></script>
 	<style type="text/css" title="dynamic-css" class="options-output">
+	
 		#logo a {
 			padding-top: 17px;
 			padding-right: 15px;
@@ -167,16 +169,16 @@ $data = mysqli_fetch_array($sql)
 
 				<div class="content clearfix">
 					<div class="top_details clearfix f_left">
-						<span><i class="icon fa fa-phone"></i>Call Us : <?= $data['no_telp']; ?></span>
+						<span><i class="icon fa fa-whatsapp"></i>Call Us : <?= $data['no_telp']; ?></span>
 						<span><i class="icon fa fa-envelope-o"></i>Mail : <?= $data['email']; ?></span>
 					</div>
 					<div class="top-socials box_socials f_right ">
-						<a href="https://www.facebook.com/" target="_blank">
+						<a href="https://www.facebook.com/smasmknupenawaja" target="_blank">
 							<span class="soc_name">Facebook</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-facebook"></i>
 						</a>
-						<a href="https://www.twitter.com/" target="_blank">
+						<!-- <a href="https://www.twitter.com/" target="_blank">
 							<span class="soc_name">Twitter</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-twitter"></i>
@@ -185,7 +187,7 @@ $data = mysqli_fetch_array($sql)
 							<span class="soc_name">Google+</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-google-plus"></i>
-						</a>
+						</a> 
 						<a href="skype:skype Id?call">
 							<span class="soc_name">Skype</span>
 							<span class="soc_icon_bg"></span>
@@ -195,24 +197,25 @@ $data = mysqli_fetch_array($sql)
 							<span class="soc_name">Vimeo</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-vimeo-square"></i>
-						</a>
-						<a href="https://www.instagram.com/" target="_blank">
+						</a> -->
+						<a href="https://www.instagram.com/smaknupenawaja?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
 							<span class="soc_name">Instagram</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-instagram"></i>
 						</a>
-						<a href="https://www.pinterest.com/" target="_blank">
+						<!-- <a href="https://www.pinterest.com/" target="_blank">
 							<span class="soc_name">Pinterest</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-pinterest"></i>
-						</a>
-						<a href="https://www.youtube.com/" target="_blank">
+						</a> -->
+						<a href="https://www.youtube.com/@smaknupenawaja" target="_blank">	
 							<span class="soc_name">YouTube</span>
 							<span class="soc_icon_bg"></span>
 							<i class="fa fa-youtube"></i>
 						</a>
 					</div>
 				</div>
+				
 
 				<span class="top_expande not_expanded">
 					<i class="no_exp fa fa-angle-double-down"></i>
@@ -225,7 +228,7 @@ $data = mysqli_fetch_array($sql)
 					<div id="navigation_bar">
 						<div class="content">
 							<div id="logo">
-								<a href="?tampil=home"" title=" <?= $data['Nama_perusahan']; ?>" rel="home">
+								<a href="?tampil=home" title=" <?= $data['Nama_perusahan']; ?>" rel="home">
 									<h4><?= $data['Nama_perusahan']; ?></h4>
 								</a>
 							</div>
@@ -284,10 +287,12 @@ $data = mysqli_fetch_array($sql)
 				<div class="rows_container clearfix">
 					<div class="footer-widget-col col-md-3">
 						<div id="text-2" class="footer_row widget_text">
-							<h6 class="footer_title">TKI SMKN 1 Gedong Tataan</h6>
-							<div class="textwidget" style="text-align:justify">Keahlian Teknik Komputer Dan Informatika sebagai pusat program keahlian yang memiliki keunggulan ilmu dan teknologi dalam bidang informasi dan komunikasi menjelang era globalisasi. Teknik Komputer Dan Informatika SMKN 1 Gedong Tataan Terdapat 2 Komputensi Keahlian yaitu : <br>
-								1. Teknik Komputer Dan Jaringan <br>
-								2. Rekayasa Perangkat Lunak
+							<h6 class="footer_title">SMA/SMK NU 01 PENAWAJA ADIWERNA</h6>
+							<div class="textwidget" style="text-align:justify">SMA/SMK NU 01 Penawaja adalah
+							lembaga pendidikan yang berdiri dengan landasan nilai-nilai keislaman yang kuat dan
+							prinsip-prinsip pendidikan yang berkualitas. Dengan moto "Beriman, Bertaqwa, Berilmu,
+							Beramal, Berbahasa" menjadi landasan utama dalam setiap kegiatan pendidikan, sekolah 
+							ini berkomitmen untuk menyelenggarakan proses pembelajaran yang holistik dan berkualitas.<br>
 							</div>
 						</div>
 					</div>
@@ -300,7 +305,7 @@ $data = mysqli_fetch_array($sql)
 							?>
 							<address>
 								<p> <i class="fa fa-map-marker"></i> <?= $data['alamat']; ?></p>
-								<p><i class="fa fa-phone"></i> <a href="tel:<?= $data['no_telp']; ?>"> <?= $data['no_telp']; ?></a></p>
+								<p><i class="fa fa-whatsapp"></i> <a href="tel:<?= $data['no_telp']; ?>"> <?= $data['no_telp']; ?></a></p>
 								<p><i class="fa fa-envelope"></i> <a href="">
 										<span class="__cf_email__" data-cfemail="<?= $data['email']; ?>"> <?= $data['email']; ?></span></a></p>
 								<p> <i class="fa fa-globe"></i> <?= $data['website']; ?></p>
@@ -349,7 +354,7 @@ $data = mysqli_fetch_array($sql)
 			<div class="footer_copyright">
 				<div class="container clearfix">
 					<div id="copyright_text_footer" class="col-md-6">
-						<span class="footer_copy_text">© 2019 Copyright Developed By <a href="#">IT SMKN 1 Gedong Tataan</a></span>
+						<span class="footer_copy_text">© 2019 Copyright Developed By <a href="#">SMA/SMK NU 01 PENAWAJA ADIWERNA</a></span>
 					</div>
 				</div>
 			</div>
